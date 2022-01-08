@@ -1,0 +1,9 @@
+name: zipcrack-actions-workflow
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Start cracking
+        run: .\ZipCrack.exe "secret.zip" 0123456789 bruteforce
