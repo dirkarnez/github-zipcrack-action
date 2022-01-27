@@ -7,4 +7,4 @@ github-zipcrack-action
 ### TODOs
 - [ ] distributed version
   - gpu (c++ cuda)
-  - push combination chucks
+  - push combination chucks and / or different length per worker
