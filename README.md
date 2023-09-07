@@ -4,6 +4,10 @@ github-zipcrack-action
 
 [![Actions Status](https://github.com/dirkarnez/github-zipcrack-action/workflows/zipcrack-actions-workflow/badge.svg)](https://github.com/dirkarnez/github-zipcrack-action/actions)
 
+![](password-breaking-time-calculator.png)
+### How to use
+- `.\ZipCrack.exe "xxx.zip" abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXUYZ0123456789 bruteforce`
+
 ### TODOs
 - [ ] distributed version
   - gpu (c++ cuda)
